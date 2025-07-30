@@ -1,5 +1,5 @@
-# Use base image: PHP-FPM, version 8.3.17
-FROM php:8.3.17-fpm
+# Use base image: PHP-FPM, version 8.3.23
+FROM php:8.3.23-fpm
  
 # Install basic apt packages
 RUN apt-get update && apt-get install -y apt-utils unzip gnupg2 libpng-dev zlib1g-dev
